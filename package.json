@@ -1,0 +1,96 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~41.0.1",
+    "expo-camera": "^11.0.3",
+    "expo-face-detector": "^10.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+headingContainer: {
+  flex: 0.15,
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundColor:'#6278e4'
+},
+titleText1: {
+  fontSize: RFValue(30),
+  fontWeight:'bold',
+  color:'#efb141',
+  fontStyle:'italic',
+
+},
+titleText2: {
+  fontSize: RFValue(30),
+  fontWeight:'bold',
+  color:'white',
+  fontStyle:'italic',
+  
+},
+subheading1: {
+  fontSize: RFValue(20),
+  fontWeight:'bold',
+  color:'#efb141',
+  fontStyle:'italic',
+  
+},
+subheading2: {
+  fontSize: RFValue(20),
+  fontWeight:'bold',
+  color:'white',
+  fontStyle:'italic',
+  
+},
+cameraStyle: {
+  flex: 0.65
+},
+frameContainer:{
+flex:0.2,
+backgroundColor:'#6278e4',
+paddingTop:RFValue(30)
+},
+filterImageContainer:{
+height:RFPercentage(8),
+width:RFPercentage(15),
+backgroundColor:'#e4e7f8',
+borderRadius:30,justifyContent:'center',alignItems:'center'
+}
+});
